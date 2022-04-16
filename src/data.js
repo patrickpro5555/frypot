@@ -29,7 +29,7 @@ export const featuresData = [
         header: 'Cerfied Platnum',
         text: 'loremds dsfds dsfd',
         icon: 'BadgeCheckIcon',
-        img: "https://source.unsplash.com/300x500/?waiter"
+        img: "https://source.unsplash.com/300x500/?meal"
 
       },
       {

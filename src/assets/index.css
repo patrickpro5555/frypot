@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply py-2 px-4 text-sm font-medium border border-transparent rounded-lg focus:outline-none;
+  }
+
+.btn-primary {
+    @apply bg-primary-600 hover:bg-primary-700 text-white;
+  }
+
+.btn-secondary {
+    @apply bg-secondary-500 hover:bg-secondary-600 text-white;
+  }
+
+.btn-success {
+    @apply bg-success-500 hover:bg-success-600 text-white;
+  }
+
+.btn-danger {
+    @apply bg-danger-500 hover:bg-danger-600 text-white;
+  }
+
+.btn-warning {
+    @apply bg-warning-500 hover:bg-warning-600 text-white;
+  }
+
+.btn-info {
+    @apply bg-info-400 hover:bg-info-500 text-white;
+}
+
+.btn-light {
+    @apply bg-gray-100 hover:bg-gray-200 text-gray-800;
+  }
+
+.btn-dark {
+    @apply bg-gray-800 hover:bg-black text-white;
+  }
+
+  /* btn outline */
+
+  .btn-outline-primary {
+    @apply bg-transparent hover:bg-primary-600 text-primary-600 hover:text-white border-primary-500 hover:border-transparent;
+  }
+
+  .btn-outline-secondary {
+    @apply bg-transparent hover:bg-secondary-600 text-secondary-600 hover:text-white border-secondary-500 hover:border-transparent;
+  }
+
+  .btn-outline-success {
+    @apply bg-transparent hover:bg-green-500 text-green-500 hover:text-white border-green-400 hover:border-transparent;
+  }
+
+  .btn-outline-danger {
+    @apply bg-transparent hover:bg-red-500 text-red-500 hover:text-white border-red-400 hover:border-transparent;
+  }
+
+  .btn-outline-warning {
+    @apply bg-transparent hover:bg-yellow-500 text-yellow-500 hover:text-white border-yellow-400 hover:border-transparent;
+  }
+
+  .btn-outline-info {
+    @apply bg-transparent hover:bg-purple-400 text-purple-400 hover:text-white border-purple-400 hover:border-transparent;
+  }
+
+  .btn-outline-light {
+    @apply bg-gray-50 hover:bg-gray-100 text-gray-200 hover:text-gray-800 border-gray-100 hover:border-transparent;
+  }
+
+  .btn-outline-dark {
+    @apply bg-transparent hover:bg-gray-800 text-gray-800 hover:text-white border-gray-800 hover:border-transparent;
+  }
+
+  /* btn icon */
+
+  .btn-icon {
+    @apply inline-flex items-center align-top;
+  }
+
+  /* btn size */
+
+  .btn-xl {
+    @apply py-4 px-8 text-3xl;
+  }
+
+  .btn-lg {
+    @apply py-3 px-6 text-xl;
+  }
+
+  .btn-sm {
+    @apply py-1 px-2 text-xs;
+  }
+
+  /* btn block */
+
+  .btn-block {
+    @apply w-full;
+  }
+/* inputs */
+.form-control {
+  @apply block w-full px-4 py-2 mt-2 text-gray-700 bg-white border border-gray-200 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40 dark:focus:border-blue-300 focus:outline-none focus:ring
+}

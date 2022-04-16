@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <h3>Comming Soon</h3>
-  </div>
+  <component :is="$route.meta.layout ?? 'default'">
+
+  </component>
 </template>
 
 
